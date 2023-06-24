@@ -1,0 +1,5 @@
+unitree_hw:
+  loop_frequency: 500 # 800
+  cycle_time_error_threshold: 0.002 # 0.002
+  thread_priority: 95
+  contact_threshold: 10

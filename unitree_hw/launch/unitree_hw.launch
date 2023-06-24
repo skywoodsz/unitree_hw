@@ -1,0 +1,6 @@
+<launch>
+
+    <rosparam file="$(find unitree_hw)/config/unitree.yaml" command="load"/>
+    <node name="unitree_hw" pkg="unitree_hw" type="unitree_hw" respawn="false" clear_params="true"/>
+
+</launch>
